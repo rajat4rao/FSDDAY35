@@ -7,8 +7,6 @@ import AssignStudent from "./components/AssignStudent";
 import ViewMentor from "./components/ViewMentor";
 import ChangeMentor from "./components/ChangeMentor";
 import Home from "./components/Home";
-import ViewStudent from "./components/ViewStudent";
-import "./App.css";
 
 const App = () => {
   return (
@@ -21,7 +19,6 @@ const App = () => {
         <Route path="/assign-student" element={<AssignStudent />} />
         <Route path="/view-mentor" element={<ViewMentor />} />
         <Route path="/change-mentor" element={<ChangeMentor />} />
-        <Route path="/view-student" element={<ViewStudent />} />
       </Routes>
     </Router>
   );
