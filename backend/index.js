@@ -30,9 +30,9 @@ const Student = mongoose.model("Student", studentSchema);
 
 
 //const uri = 'mongodb://localhost:27017/mentorstudent';
+const uri = 'mongodb+srv://balprao:igUaFOlnYzPl0tFT@productiondb.cgth5.mongodb.net/?retryWrites=true&w=majority&appName=productiondb'
 
-
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
