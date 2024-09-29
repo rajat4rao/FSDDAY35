@@ -6,7 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project URL
 
-- **Live URL**: Click [here](https://fsdday35.onrender.com/).
+- **Live URL**: Click [here](https://assign-mentor-fsdday35.onrender.com/).
+- **Backend URL** Click [here](https://fsdday35-backend.onrender.com/).
   
 ## Technologies:
 
@@ -21,13 +22,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rajat4rao/FSDDAY35.git
+git clone https://github.com/rajat4rao/assign-mentor.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd FSDDAY35
+cd assign-mentor
 ```
 
 3. Install the dependencies for frontend:
